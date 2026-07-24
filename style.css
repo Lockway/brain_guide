@@ -73,7 +73,7 @@ h1 { margin: 0; font-family: Georgia, "Times New Roman", serif; font-size: clamp
 
 .region-grid, .topic-grid { display: grid; gap: 12px; }
 .region-grid { grid-template-columns: repeat(3, 1fr); }
-.topic-grid.four { grid-template-columns: repeat(4, 1fr); }
+.topic-grid.four { grid-template-columns: repeat(2, 1fr); }
 .topic-grid.three { grid-template-columns: repeat(3, 1fr); }
 .region-card, .topic-card { position: relative; background: var(--surface); border: 1px solid var(--line); border-top: 3px solid var(--card-color, var(--accent)); padding: 20px; }
 .region-card { min-height: 180px; }
@@ -92,6 +92,9 @@ h1 { margin: 0; font-family: Georgia, "Times New Roman", serif; font-size: clamp
 .page-links { margin-top: 38px; padding-top: 20px; border-top: 1px solid var(--line); display: flex; justify-content: space-between; gap: 16px; }
 .page-links a { color: var(--muted); font-size: 13px; }
 .page-links a:hover { color: var(--accent); }
+.personal-note { max-width: 900px; margin: 0 0 35px; padding: 24px; background: var(--surface); border: 1px solid var(--line); border-left: 3px solid var(--accent); }
+.personal-note h2 { margin: 0 0 10px; font: 500 25px/1.25 Georgia, serif; }
+.personal-note p { margin: 0; color: #bdc9cf; }
 .sources { margin-top: 34px; padding-top: 20px; border-top: 1px solid var(--line); color: var(--muted); font-size: 12px; }
 .sources h2 { margin: 0 0 8px; color: var(--text); font: 600 12px/1.3 Consolas, monospace; letter-spacing: .12em; text-transform: uppercase; }
 .sources p { margin: 0; }
