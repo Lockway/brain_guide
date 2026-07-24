@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="A concise visual guide to introductory human neuroanatomy.">
+  <title>Brain Overview | Neuroanatomy Guide</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="shell">
+    <aside class="sidebar" id="site-navigation" aria-label="Primary navigation">
+      <div class="brand-row">
+        <a class="brand" href="index.html">
+          <span class="brand-mark">NG</span>
+          <span><strong>Neuroanatomy Guide</strong><small>Course atlas</small></span>
+        </a>
+        <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-links">Menu</button>
+      </div>
+      <p class="nav-label">Brain regions</p>
+      <nav class="nav" id="primary-links">
+        <a class="active" href="index.html" aria-current="page">Brain Overview</a>
+        <a href="forebrain/index.html">Forebrain</a>
+        <a href="midbrain/index.html">Midbrain</a>
+        <a href="hindbrain/index.html">Hindbrain</a>
+      </nav>
+      <p class="sidebar-note">A concise visual reference for introductory neuroanatomy.</p>
+    </aside>
+
+    <main>
+      <header class="topbar">
+        <div class="crumbs"><strong>Brain</strong></div>
+        <div class="section-index">Overview</div>
+      </header>
+      <article class="content">
+        <p class="eyebrow">Begin the atlas</p>
+        <h1>Human Brain</h1>
+        <p class="lead">The brain can be introduced through three broad regions: the forebrain, midbrain, and hindbrain. Each region contains structures that contribute to perception, movement, emotion, memory, and essential body functions.</p>
+
+        <figure class="exhibit exhibit-wide">
+          <img src="images/brain.png" alt="Sagittal illustration identifying the forebrain, midbrain, and hindbrain">
+        </figure>
+
+        <section aria-labelledby="regions-title">
+          <div class="section-title">
+            <h2 id="regions-title">Choose a Region</h2>
+            <span>Three major divisions</span>
+          </div>
+          <div class="region-grid">
+            <a class="region-card" href="forebrain/index.html">
+              <span class="region-number">01</span><h3>Forebrain</h3><p>Supports higher cognition, perception, voluntary action, emotion, and memory.</p><span class="card-arrow">→</span>
+            </a>
+            <a class="region-card" href="midbrain/index.html">
+              <span class="region-number">02</span><h3>Midbrain</h3><p>Contributes to sensory responses, movement, alertness, and communication between brain regions.</p><span class="card-arrow">→</span>
+            </a>
+            <a class="region-card" href="hindbrain/index.html">
+              <span class="region-number">03</span><h3>Hindbrain</h3><p>Supports vital automatic functions, sleep, balance, posture, and coordinated movement.</p><span class="card-arrow">→</span>
+            </a>
+          </div>
+        </section>
+        <section class="sources" aria-labelledby="overview-sources"><h2 id="overview-sources">Sources</h2><p><a href="https://openstax.org/books/psychology-2e/pages/3-4-the-brain-and-spinal-cord">OpenStax Psychology 2e — The Brain and Spinal Cord</a></p></section>
+      </article>
+    </main>
+  </div>
+</body>
+</html>
